@@ -8,6 +8,17 @@ spring:
           uri: https://github.com/krish/spring-cloud-config
           search-paths:
            - '*service'
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo
+    username: root
+    password: Test@1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+      format_sql: true
+      dialect: org.hibernate.dialect.MySQL57InnoDBDialect
 
 
 
