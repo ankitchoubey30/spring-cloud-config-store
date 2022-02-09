@@ -20,18 +20,5 @@ spring:
       show-sql: true
       format_sql: true
       dialect: org.hibernate.dialect.MySQL57InnoDBDialect
-=======
-# server:
-#   port: 8191
-# spring:
-#   cloud:
-#     config:
-#       server:
-#         git:
-#           uri: https://github.com/ankitchoubey30/spring-cloud-config
-#           search-paths:
-#            - '*service'
->>>>>>> 0b06bccef8b763a79a23b9db445b532e8cb5037e
-
 
 
